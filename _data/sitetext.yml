@@ -33,7 +33,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "최고의 전문 강사진 초빙"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "취약점 점검, 악성코드 분석, 침해사고 대응 분야의 국내 정보보안 전문가들로 구성"
     section: portfolio
     closebutton: "Close Project"
 
