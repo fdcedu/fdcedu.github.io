@@ -11,28 +11,28 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio Test!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Innovative Contents, New Paradigms in Education
+    text: 전문 교육을 통해 정보보안의 미래를 선도하는 인재 양성
+    button: See More
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "What We Support"
+    text: "기존에 없던 새로운 교육 컨텐츠로 최상의 만족도를 제공하겠습니다"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Custom Fit"
+        desc: "기존 업체 커리큘럼에 맞추는 교육이 아닌, 고객에게 필요한 양질의 컨텐츠를 위해 새로 준비하여 다가가겠습니다"
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Professional"
+        desc: "최신 서비스 흐름에 따라 교육 컨텐츠를 개발하고 준비할 수 있는 검증된 정보보안 전문가들이 기다리겠습니다"
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
+      - title: "Experience"
+        desc: "다양한 정보보안 분야에서의 경험과 노하우를 토대로 이론적인 교육이 아닌 실전 감각을 전달해드리겠습니다"
         icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
+    title: "최고의 전문 강사진 초빙"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     closebutton: "Close Project"
