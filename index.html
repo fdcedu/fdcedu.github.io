@@ -725,35 +725,37 @@
       </div>
     </div>
   </div>
+
+  <!-- 지도 섹션 -->
+  <div class="container text-center" style="margin-top: 50px;">
+    <h2 class="section-heading text-uppercase" style="font-size: 36px; font-weight: bold;">Location</h2>
+    <h4 class="section-subheading" style="margin-top: 20px; margin-bottom: 20px; font-size: 18px; font-weight: normal;">서울특별시 서초구 사임당로</h4>
+  </div>
+  <div id="map" style="width: 700px; height: 400px; margin: 30px auto; margin-top: 30px;"></div>
+
+  <!-- 카카오 지도 API 불러오기 -->
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a047905df17c91cd7c6b83d5b326225e&autoload=false"></script>
+  <script>
+    kakao.maps.load(function () {
+      var mapContainer = document.getElementById('map'); // 지도를 표시할 div  
+      var mapOption = { 
+          center: new kakao.maps.LatLng(37.494915, 127.012167), // 주소 좌표
+          level: 3 // 확대 레벨
+      };
+
+      var map = new kakao.maps.Map(mapContainer, mapOption); // 지도 생성
+
+      // 마커 생성
+      var marker = new kakao.maps.Marker({
+          position: new kakao.maps.LatLng(37.494915, 127.012167)
+      });
+
+      marker.setMap(map); // 지도에 마커 표시
+    });
+  </script>
 </section>
 
-<!-- 지도 섹션 -->
-<div class="container text-center" style="margin-top: 50px;">
-  <h2 class="section-heading text-uppercase" style="font-size: 36px; font-weight: bold;">Location</h2>
-  <h4 class="section-subheading" style="margin-top: 20px; margin-bottom: 20px; font-size: 18px; font-weight: normal;">서울특별시 서초구 사임당로</h4>
-</div>
-<div id="map" style="width: 700px; height: 400px; margin: 30px auto; margin-top: 30px;"></div>
 
-<!-- 카카오 지도 API 불러오기 -->
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a047905df17c91cd7c6b83d5b326225e&autoload=false"></script>
-<script>
-  kakao.maps.load(function () {
-    var mapContainer = document.getElementById('map'); // 지도를 표시할 div  
-    var mapOption = { 
-        center: new kakao.maps.LatLng(37.494915, 127.012167), // 주소 좌표
-        level: 3 // 확대 레벨
-    };
-
-    var map = new kakao.maps.Map(mapContainer, mapOption); // 지도 생성
-
-    // 마커 생성
-    var marker = new kakao.maps.Marker({
-        position: new kakao.maps.LatLng(37.494915, 127.012167)
-    });
-
-    marker.setMap(map); // 지도에 마커 표시
-  });
-</script>
 
 	  <!-- Footer -->
 <footer class="footer" id="footer" style="background-color: white">
