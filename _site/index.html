@@ -759,12 +759,12 @@ script.src = "http://dapi.kakao.com/v2/maps/sdk.js?appkey=a047905df17c91cd7c6b83
 document.head.appendChild(script);
 script.onload = () => {
     kakao.maps.load(() => {
-      const node = document.getElementById('map'), // 지도를 표시할 div  
-      const center = new kakao.maps.LatLng(37.494915, 127.012167)
+      const node = document.getElementById('map'); // 지도를 표시할 div  
+      const center = new kakao.maps.LatLng(37.494915, 127.012167);
       const options = { 
-              center,
-              level: 3 // 지도 확대 레벨
-          };
+          center,
+          level: 3 // 지도 확대 레벨
+      };
       const map = new kakao.maps.Map(mapContainer, mapOption); // 지도 생성
     });
 };
