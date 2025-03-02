@@ -166,7 +166,8 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header.png");
+  background: linear-gradient(to bottom, #333333, #1E3A8A);
+  /*background-image: url("../img/header.png");*/
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -536,8 +537,9 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../img/contact.png");
+  /*background-color: #212529;*/
+  background: linear-gradient(to bottom, #333333, #1E3A8A);
+  /*background-image: url("../img/contact.png");*/
   background-repeat: no-repeat;
   background-position: center;
 }
