@@ -736,6 +736,7 @@
 
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a047905df17c91cd7c6b83d5b326225e&autoload=false"></script>
 <script>
+  kakao.maps.load(function () {
   // 카카오 맵 API 로드
   var mapContainer = document.getElementById('map'); // 지도를 표시할 div  
   var mapOption = { 
@@ -751,6 +752,7 @@
   });
 
   marker.setMap(map); // 지도에 마커 표시
+  });
 </script>
 
 	  <!-- Footer -->
